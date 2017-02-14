@@ -1,0 +1,92 @@
+body{
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1{
+  font-family: 'Didot', 'Prata', serif;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Didot', 'Prata', serif;
+  margin-bottom: -5px;
+}
+
+h3{
+  font-family: 'Didot', 'Prata', serif;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Didot', 'Prata', serif;
+  margin-bottom: -5px;
+}
+
+a{
+  font-family: 'Didot', 'Prata', serif;
+}
+
+#wrapper{
+  width: 60%;
+  margin: 0px auto;
+}
+
+#navContainer{
+
+}
+
+#navigation {
+  width: 100%;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  margin: 0px auto;
+  height: 40px;
+  display: inline-block;
+}
+
+#navigation li {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  padding: 13px 0px;
+  margin: 0 0 0 -10px; 
+  text-align: left;
+  vertical-align: bottom;
+  height: 40px;
+  width: 40%;
+}
+
+#navigation li a {
+  font-family: Didot, serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#navigation li a:hover{
+  height: 40px;
+  text-decoration: underline;
+}
+
+#content{
+  width: 105%;
+  margin: 0px auto;
+  display: block;
+}
+
+#content ul li {
+  list-style-type: square;
+}
+
+.contact {
+  margin: 0% 10% 0 10%;
+}
+
+.minutes h2, h3 {
+  text-align: center;
+}
+
+.wrap {
+  margin: 0% 10% 0 10%;
+}
